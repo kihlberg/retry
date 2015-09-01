@@ -3,7 +3,7 @@ Tiny javascript library that simplifies retry handling.
 
 ## About
 
-Retry.js makes retry handling, with or without backoff a breeze. There's even support for Promises/A+ compatible tasks!
+Retry.js makes retry handling, with or without backoff, a breeze. There's even support for Promises/A+ compatible tasks!
 
 ```javascript
 
