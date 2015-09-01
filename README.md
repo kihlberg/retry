@@ -20,7 +20,7 @@ var config = {
 
 retry.run(myFunctionThatMightFail, config)
 	.then(function() {
-		// myFunctionThatMightFail returned true
+		// myFunctionThatMightFail returned 'OK'
 	})
 	.catch(function() {
 		// myFunctionThatMightFail failed 3 times
