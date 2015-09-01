@@ -33,7 +33,7 @@ Retry.js uses Promises/A+, if you need to support older browsers please use libs
 
 ## NPM
 
-Retry.js is available on NPM, you can find it at http://npmjs.com/package/retry.js
+Retry.js is not yet available on NPM, working on it!
 
 ## Configuration
 
