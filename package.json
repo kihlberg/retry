@@ -1,8 +1,8 @@
 {
-  "name": "retry",
+  "name": "retry.js",
   "version": "1.0.0",
   "description": "Tiny library that simplifies retry handling",
-  "main": "lib/retry.js",
+  "main": "src/retry.js",
   "scripts": {
     "test": "grunt test"
   },
