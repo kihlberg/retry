@@ -39,31 +39,31 @@ Retry.js is available on NPM, you can find it at https://www.npmjs.com/package/r
 
 Valid configuration parameters are:
 
-####expectedResult
+#### expectedResult
 
 Default: **true**
 
 Functions return value when executed successfully.
 
-####retryAfter
+#### retryAfter
 
 Default: **1000**
 
 How long to wait before trying again after an unsuccessful execution. Value in milliseconds.
 
-####maxAttempts
+#### maxAttempts
 
 Default: **retry.INFINITE**
 
 How many times to retry before failing. Defaults to never.
 
-####backoff
+#### backoff
 
 Default: **false**
 
 Should we back off when retrying? That is, should we increase the time between each retry.
 
-####backoffFunction
+#### backoffFunction
 
 Default: **retry.BACKOFF_FUNCTION_EXPONENTIAL_JITTER**
 
@@ -73,7 +73,7 @@ What function to use for calculating the backoff time. There's 2 functions provi
 
 If you provide your own just make sure your function takes two parameters, number of attempts made and the original delay. It should return the next wait in milliseconds.
 
-####backoffMaxWait
+#### backoffMaxWait
 
 Default: **Number.MAX_VALUE**
 
